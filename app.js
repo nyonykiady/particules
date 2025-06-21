@@ -47,7 +47,7 @@ function init() {
         let y = Math.random() * (window.innerHeight - taille * 2)
         let directionX = (Math.random() * 0.4 - 2)
         let directionY = (Math.random() * 0.4 - 2)
-        let couleur = "yellow"
+        let couleur = "white"
 
         partiuleTab.push( new Particule(x, y, directionX, directionY, taille, couleur))
     }
